@@ -28,7 +28,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk import word_tokenize
 from nltk.stem import WordNetLemmatizer 
-STOPWORDS = set(stopwords.words('english'))
+STOPWORDS = {"you'd", 'me', 'o', 'off', "needn't", "she's", 'again', "should've", 'll', 'such', 'by', 'itself', 'who', 'it', 'why', 'mightn', 'hers', 'hadn', "don't", "it's", 'isn', 'can', 'ma', "that'll", 'more', 'what', 'how', 'y', 'did', 'having', 'should', 'does', 'himself', 'as', 're', "haven't", "mightn't", 'are', 'now', 'herself', 'on', "couldn't", 'of', 'all', 'some', 'is', 'ours', 's', 'wouldn', 'an', "shan't", 'haven', 'shouldn', "wasn't", 'those', 'once', "isn't", 'am', "weren't", 'no', 'each', 'then', 'through', 'out', 'too', 'were', 'before', 'ourselves', 'being', 'most', 'about', 'shan', 'yours', 'just', "aren't", 'them', 'its', 'do', 'own', 'that', 'm', 'couldn', 'these', "you'll", 'for', 'his', 'she', 'after', 'this', "didn't", 'ain', 'her', 'you', 'i', 'here', 'but', 'don', 'had', 'any', 'up', 'doing', 'when', 'doesn', 'there', 'needn', 'very', 'your', 'than', 'because', 'will', 'they', 'theirs', 'which', 'at', 'into', 'same', 'have', 'other', 'so', "hasn't", 'their', 'was', 'myself', 'yourselves', 'has', "you're", 'where', 'with', 'from', 'both', 'whom', "hadn't", 'hasn', 'against', 'he', 'nor', 'over', 't', "wouldn't", 'below', 'down', 'weren', 'under', 'wasn', 'been', 'not', 'while', 'the', 'and', 'didn', 'until', 'above', 'my', 've', "mustn't", 'in', 'aren', 'themselves', 'or', 'won', 'to', 'yourself', 'only', "doesn't", 'we', "shouldn't", 'during', 'a', 'our', 'if', 'mustn', "you've", 'further', 'd', "won't", 'few', 'be', 'him', 'between'}
 from tensorflow.keras.models import load_model
 import pickle
 import os
