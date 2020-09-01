@@ -7,8 +7,6 @@ const spawn = require("child_process").spawn;
 const bodyParser = require('body-parser');
 const csv1 = require('csvtojson');
 const { query } = require('express');
-const dotenv = require('dotenv');
-dotenv.config();
 
 const results = [];
 const topNews = [],
