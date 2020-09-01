@@ -1,1 +1,1 @@
-worker: rasa run -m models --enable-api --cors "*" --debug
+web: run -m /models --enable-api --cors "*" --debug
