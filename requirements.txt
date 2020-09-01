@@ -1,5 +1,5 @@
 rasa==1.10.2
-tensorflow==1.15
+tensorflow
 numpy==1.17.1
 pandas==1.0.3
 nltk==3.4.5
